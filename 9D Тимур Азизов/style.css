@@ -1,0 +1,185 @@
+html{
+    scroll-behavior: smooth;
+    }
+    body{
+        background-color:rgb(189, 187, 187);
+        margin: 0;
+    }
+    .dark-mode {
+        background-color: rgb(28, 28, 28);
+        color: white;
+      }
+    .nav {
+            margin: 0;
+            padding: 0;
+            width: 200px;
+            background-color: black;
+            position: fixed;
+            height: 100%;
+            overflow: auto;
+    }
+    .nav a {
+        display: flex;
+        font-size:20px;
+        flex-direction: column;
+        color: grey;
+        padding: 25px;
+        margin:0;
+        text-decoration: none;
+        align-items: center;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      }
+    .dot{
+        color:grey;
+    }
+    .nav a:hover {
+        background-color: #555;
+        color: white;
+      }
+    .nav a:active{
+        background-color:rgb(152, 27, 242);
+        color:black;
+    }
+    .text{
+        background-color: white;
+        margin-left: 22rem;
+        margin-right:10rem;
+        display: flex;
+        border:#f50000;
+        border-style:solid;
+        border-radius: 10px;
+        border-width:6px;
+        text-align: center;
+        justify-content: space-around;
+        font-family:  'Comic Sans MS', 'Comic Sans', cursive;
+        font-size: 18px;
+    }  
+    .dark-text{
+        background-color: rgb(31, 31, 31);
+        color:white;
+        margin-left: 22rem;
+        margin-right:10rem;
+        display: flex;
+        border:#f50000;
+        border-style:solid;
+        border-radius: 10px;
+        border-width:6px;
+        text-align: center;
+        justify-content: space-around;
+        font-family:  'Comic Sans MS', 'Comic Sans', cursive;
+        font-size: 18px;
+    }
+    .osebe{
+        margin-left:200px;
+        margin-bottom:0rem;
+        color:black;
+        background-color:rgb(189, 187, 187);
+        font-size:30px;
+    }
+    .dark-osebe{
+        margin-left:200px;
+        margin-bottom:0rem;
+        color:rgb(255, 255, 255);
+        background-color:rgb(28, 28, 28);
+        font-size:30px;
+    }
+    .hobby{
+        margin-top: 200px;
+        background-color:rgb(255, 255, 255);
+        margin-left: 200px;
+    }
+    .h1{
+        text-align: center;
+        font-size: 100px;
+        font-family: "Brush Script MT", "Brush Script Std", cursive
+        
+    }
+    .dark-h1{
+        color:white;
+        background-color: rgb(28, 28, 28);
+    }
+    .eye-animation {
+        display: flex;
+        width: 300px;
+        opacity: 0;
+        left: 50%;
+        transform: translateX(-50%);
+      }
+      .media{
+        width: 10%;
+        border-radius: 30px;
+        margin-left: 270px;
+        margin-right: 20px;
+        margin-top: 30px;
+    }
+    .container{
+        width: auto;
+        height: auto;
+        top:10%;
+        margin-top: 22%;
+        margin-bottom: 10%;
+        left:50%;
+        margin-left:70%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transform: rotateX(65deg);
+        perspective: 1000px;
+        transform-style: preserve-3d;
+    }
+    .circle{
+        border-radius:200px;
+        position: absolute;
+        animation:circle 5s infinite;
+    }
+    @keyframes circle{
+        50%{
+            transform: translateZ(180px);
+        }
+    }
+    #circle1{
+    height: 400px;
+    width:400px;
+    border: 5px solid red;
+    animation-delay: .7s;
+    }
+    #circle2{
+        height: 360px;
+        width:360px;
+        border: 5px solid orange;
+        animation-delay: .6s;
+        }
+        #circle3{
+            height: 320px;
+            width:320px;
+            border: 5px solid yellow;
+            animation-delay: .5s;
+            }
+            #circle4{
+                height: 280px;
+                width:280px;
+                border: 5px solid green;
+                animation-delay: .4s;
+                }
+                #circle5{
+                    height: 240px;
+                    width:240px;
+                    border: 5px solid rgb(124, 124, 208);
+                    animation-delay: .3s;
+                    }
+                    #circle6{
+                        height: 200px;
+                        width:200px;
+                        border: 5px solid blue;
+                        animation-delay: .2s;
+                        }
+                        #circle7{
+                            height: 160px;
+                            width:160px;
+                            border: 5px solid purple;
+                            animation-delay: .1s;
+                            }
+    .gray{
+        margin-left:200px;
+        height:40%;
+    }
